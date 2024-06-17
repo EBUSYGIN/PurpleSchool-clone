@@ -33,3 +33,10 @@
   background-color: var(--color-bg-medium);
   transition: 0.5s;
 }
+
+
+@media (max-width: 480px) {
+  .button {
+    padding: 12px 24px;
+  }
+}

@@ -4,10 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 40px 24px;
 }
 
-.section {
+.section-light {
   background-color: var(--color-bg-medium);
 }
 
@@ -78,4 +78,10 @@
   .hero__cta {
     gap: 16px;
   }
+}
+
+
+
+.button-more {
+  text-align: center;
 }

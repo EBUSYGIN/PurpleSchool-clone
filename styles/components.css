@@ -22,7 +22,7 @@
   line-height: 120%;
   text-align: center;
   cursor: pointer;
-  display: inline-block;
+  display: block;
 }
 
 .button_primary {
@@ -97,6 +97,12 @@
   line-height: 120%;
   color: var(--color-text);
   margin: 0 0 32px 0;
+}
+
+@media (max-width: 860px) {
+  .headling__bottom {
+    font-size: 34px;
+  }
 }
 
 
@@ -175,4 +181,16 @@
   font-size: 16px;
   line-height: 150%;
   color: var(--color-text);
+}
+
+
+
+@media (max-width: 860px) {
+  .post {
+    flex-direction: column;
+  }
+
+  .post__header {
+    font-size: 21px;
+  }
 }

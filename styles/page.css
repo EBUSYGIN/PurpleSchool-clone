@@ -53,6 +53,10 @@
   .hero__h1 {
     text-align: center;
   }
+
+  .trust-wrapper {
+    grid-template-columns: [start] repeat(2, 1fr) [end];
+  }
 }
 
 
@@ -91,5 +95,13 @@
 .course__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 70px;
+}
+
+
+
+.trust-wrapper {
+  display: grid;
+  grid-template-columns: [start] repeat(auto-fit, minmax(300px, 1fr)) [end];
   gap: 70px;
 }

@@ -312,3 +312,69 @@
   align-items: center;
   gap: 8px;
 }
+
+
+.trust-wrapper__top {
+  grid-column: start / end;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  background-color: var(--color-bg-light);
+  border-radius: var(--border-10);
+  padding: 48px 24px;
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 120%;
+  text-align: center;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.card-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.trust-wrapper__h3 {
+  grid-column: start / end;
+}
+
+.card_small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background-color: var(--color-bg-light);
+  padding: 24px 98px 24px 32px;
+  border-radius: var(--border-10);
+  grid-column: span 1;
+}
+
+
+.card_small__raiting {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 120%;
+  color: var(--color-text);
+}
+
+.card_small__name {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-link-hover);
+}
